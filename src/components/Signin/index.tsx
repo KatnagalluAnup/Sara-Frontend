@@ -69,7 +69,7 @@ const SignIn: React.FC<Props> = () => {
    */
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const form = { email, password };
+    // const form = { email, password };
     // authenticate(form);
   }
 
